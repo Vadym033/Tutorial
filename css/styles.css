@@ -14,6 +14,10 @@ h1 {
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
 
 .hhh {
 }
@@ -58,4 +62,20 @@ h1 {
 }
 
 .box-shadow::activ {
+}
+
+.box.red {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+}
+.box.green {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.box.blue {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
 }
